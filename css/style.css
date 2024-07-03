@@ -599,6 +599,7 @@ ul {
     color: var(--white-alt-color);
     font-size: 18px;
     font-weight: 600;
+    margin-top: 10px;
     margin-bottom: 10px;
 }
 .new-drops .view .card .content p {
