@@ -573,7 +573,7 @@ ul {
     border-radius: 6px;
     border: 1px solid var(--border-alt-color);
     flex: 1;
-    min-width: 290px;
+    min-width: 260px;
     padding: 20px;
 }
 .new-drops .view .card .icon {
@@ -699,6 +699,7 @@ ul {
 @media (max-width: 992px) {
     .course .cover {
         margin-top: 50px;
+        padding: 20px;
     }
 }
 .course .cover img {
@@ -730,6 +731,18 @@ ul {
     font-size: 14px;
     margin-right: 5px;
 }
+@media (max-width: 992px) {
+    .course .cover .logo {
+        padding: 4px 8px;
+        margin-bottom: 15px;
+    }
+    .course .cover .logo span {
+        font-size: 12px;
+    }
+    .course .cover .logo i {
+        font-size: 12px;
+    }
+}
 .course .cover .title {
     width: 60%;
 }
@@ -739,12 +752,15 @@ ul {
     color: var(--white-color);
 }
 .course .cover .title p {
-    font-size: 16px;
+    font-size: 14px;
     color: var(--white-alt-color);
 }
-@media (max-width: 968px) {
+@media (max-width: 992px) {
+    .course .cover .title {
+        width: 100%;
+    }
     .course .cover .title h2 {
-        font-size: 20px;
+        font-size: 18px;
         margin-bottom: 20px;
     }
     .course .cover .title p {
@@ -784,6 +800,11 @@ ul {
     font-size: 16px;
     margin-bottom: 20px;
 }
+.course .overview .about .btns {
+    display: flex;
+    align-content: center;
+    flex-wrap: wrap;
+}
 .course .overview .about .btns button {
     border: 1px solid var(--grey-alt-color);
     border-radius: 6px;
@@ -794,6 +815,8 @@ ul {
     background-color: var(--grey-alt-color);
     margin-right: 10px;
     margin-bottom: 10px;
+    flex: 1;
+    min-width: 200px;
 }
 .course .overview .about .btns button:hover {
     opacity: 0.9;
@@ -808,7 +831,7 @@ ul {
     background-color: var(--bg-sidebar-color);
     border: 1px solid var(--border-alt-color);
     border-radius: 10px;
-    min-width: 300px;
+    min-width: 280px;
     padding: 30px;
     flex: 1;
 }
