@@ -685,7 +685,6 @@ ul {
 /* End Content Section */
 /* Start Course Section */
 .course .cover {
-    background-image: url("/images/course-cover.jpg");
     border-radius: 10px;
     margin-bottom: 40px;
     padding: 50px;
@@ -694,11 +693,23 @@ ul {
     flex-direction: column;
     justify-content: center;
     text-align: center;
+    position: relative;
+    overflow: hidden;
 }
 @media (max-width: 992px) {
     .course .cover {
         margin-top: 50px;
     }
+}
+.course .cover img {
+    width: 100%;
+    border-radius: 10px;
+    position: absolute;
+}
+.course .cover .logo,
+.course .cover .title {
+    position: relative;
+    z-index: 99;
 }
 .course .cover .logo {
     background-image: linear-gradient(45deg, #f1ddb5, #090000 25% 75%, #f1ddb5);
