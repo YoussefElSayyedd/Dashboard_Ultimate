@@ -625,6 +625,7 @@ ul {
     border-radius: 10px;
 }
 .new-drops .stack .heading h2 {
+    margin-top: 10px;
     font-size: 20px;
     color: var(--white-alt-color);
 }
